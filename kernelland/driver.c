@@ -43,7 +43,7 @@ static int iostat_release(struct inode *inode, struct file *file) {
     return 0;
 }
 
-// спизжено из genhd.c
+//украдено из genhd.c
 // общий драйвер для блочных устройств
 // Проходит по всем ядрам и собирает статистику устройств
 static void part_stat_read_all(struct block_device *part,
